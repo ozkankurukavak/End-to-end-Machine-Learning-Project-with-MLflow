@@ -1,0 +1,1 @@
+# config.yaml dosyası, projede kullanılan yapılandırma bilgilerini saklamak için kullanılır. Örneğin, veritabanı bağlantı bilgileri, model ayarları, dosya yolları gibi çeşitli parametreleri içerir. Projenin farklı ortamlar (geliştirme, test, üretim) için farklı ayarları burada tanımlayabilirsiniz.

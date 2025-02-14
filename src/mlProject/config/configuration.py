@@ -1,0 +1,1 @@
+# config/configuration.py dosyası, projenizin yapılandırma ayarlarını içerir. Örneğin, veritabanı bağlantıları, model parametreleri veya dosya yolları gibi ayarlar bu dosyada tanımlanır. Böylece proje genelinde kullanılan parametreler merkezi bir yerde toplanır ve yönetilir.

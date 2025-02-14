@@ -1,0 +1,1 @@
+# entity/config_entity.py dosyası, projedeki veri yapılarının ve model konfigürasyonlarının tanımlandığı yerdir. Veri sınıfları, yapılandırmalar ve doğrulamalar bu dosyada yer alır.
