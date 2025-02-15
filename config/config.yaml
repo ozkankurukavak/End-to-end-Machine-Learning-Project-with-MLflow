@@ -1,8 +1,8 @@
 # config.yaml dosyası, projede kullanılan yapılandırma bilgilerini saklamak için kullanılır. Örneğin, veritabanı bağlantı bilgileri, model ayarları, dosya yolları gibi çeşitli parametreleri içerir. Projenin farklı ortamlar (geliştirme, test, üretim) için farklı ayarları burada tanımlayabilirsiniz.
-
-
-artifacts_root: artifacts
+artifacts_root: artifacts  # Ana çıktı dosyalarının saklanacağı kök klasör
 
 data_ingestion:
-  root_dir: artifacts/data_ingestion
-  source_URL: 
+  root_dir: artifacts/data_ingestion  # Veri alım işlemi için kök dizin
+  source_URL: https://www.kaggle.com/api/v1/datasets/download/zkankurukavak/satslar-zkan  # Veri kaynağının URL'si
+  local_data_file: artifacts/data_ingestion/data.zip  # Verinin yedeği olarak indirilen yerel dosya yolu
+  unzip_dir: artifacts/data_ingestion  # Çıkarılan verilerin depolanacağı dizin

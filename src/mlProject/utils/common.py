@@ -202,4 +202,4 @@ def evaluate_model(X_train,y_train,X_test,y_test,models,param):
         return report
 
     except Exception as e:
-        raise e->ConfigBox
+        raise e
